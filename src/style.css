@@ -28,7 +28,6 @@ h1 {
 .weather-temperature strong {
   color: rgb(68, 68, 71);
   font-size: 64px;
-  font-weight: 300px;
   line-height: 1;
 }
 .weather-temperature .units {
