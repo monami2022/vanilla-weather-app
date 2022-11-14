@@ -31,6 +31,7 @@
                   placeholder="Type a city name"
                   class="form-control"
                   id="city-input"
+                  autocomplete="off"
                 />
               </div>
               <div class="col-3">
@@ -52,10 +53,13 @@
           <div class="row">
             <div class="col-6">
               <div class="d-flex weather-temperature">
-                <img src="" alt="" id="icon" />
+                <img src="" alt="" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong>
-                  <span class="units"> °C | <a href="#">°F</a></span>
+                  <span class="units">
+                    <a href="#" id="celsius-link">C </a>|
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
                 </div>
               </div>
             </div>
